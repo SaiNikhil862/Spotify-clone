@@ -13,7 +13,6 @@ A responsive web application that replicates the Spotify interface using HTML an
 ## ✨ Features
 
 - 🎨 **Pixel-perfect Spotify UI** - Authentic design matching Spotify's interface
-- 📱 **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
 - 🎵 **Interactive Elements** - Hover effects and smooth transitions
 - 🖼️ **Rich Media Content** - Album covers, artist images, and icons
 - 🎯 **Modern CSS** - Flexbox, Grid, and modern styling techniques
@@ -79,12 +78,6 @@ spotify-clone/
 - **Card Layouts** - Album and playlist cards with hover effects
 - **Typography** - Clean, readable fonts matching Spotify's style
 - **Smooth Animations** - Subtle transitions and hover effects
-
-## 📱 Responsive Breakpoints
-
-- **Desktop**: 1200px and above
-- **Tablet**: 768px - 1199px
-- **Mobile**: Below 768px
 
 ## 🔧 Customization
 
