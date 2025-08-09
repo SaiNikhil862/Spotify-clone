@@ -1,0 +1,280 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+}
+nav{
+    border: 2px solid black;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+nav div{
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 250px;
+}
+nav svg{
+    height: 35px;
+    fill: white;
+}
+nav div+div{
+    width: 600px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ol{
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-between; */
+    list-style: none;
+    /* border: 2px solid green; */
+    width: inherit;
+    font-size: 16px;
+    font-weight: 600;
+}
+nav ol>li:hover{
+    cursor: pointer;
+    color: #1ed760;
+}
+nav svg:hover{
+    cursor: pointer;
+}
+
+main {
+    /* border: 2px solid red; */
+    height: 530px;
+    background: url('../spotify/assets/desktop-hero.jpeg')center 40% / 100%;no repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+main div{
+    height: 300px;
+}
+main h1{
+    font-size: 65px;
+    letter-spacing: -4px;
+}
+main button{
+    border: none;
+    /* border: 2px solid red; */
+    border-radius: 25px;
+    height: 40px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+#sec1{
+    /* border: 2px solid red; */
+    height: 550px;
+}
+#sec1 h1{
+    text-align: center;
+    font-size: 38px;
+}
+#sec1 aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* border: 2px solid yellow; */
+    height: 400px;
+}
+#sec1 div{
+    /* border: 2px solid green; */
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+#sec1 img{
+    border-radius: 50%;
+}
+#sec1 p{
+    line-height: 20px;
+}
+
+#sec2 {
+    /* border: 2px solid red; */
+    height: 465px;
+    background-color: #1ed760;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
+#sec2 img{
+    height: 344px;
+    width: 500px;
+}
+
+
+
+
+
+
+#sec3{
+    /* border: 2px solid red; */
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#sec3 h1{
+    text-align: center;
+    font-size: 40px;
+}
+#sec3 div {
+    /* border: 2px solid red; */
+    height: 400px;
+    display: flex;
+    justify-content:center;
+}
+#sec3 aside{
+    /* border: 2px solid; */
+    width: 70%;
+}
+#sec3 details{
+    border-bottom: 0.002px solid grey;
+}
+#sec3 summary{
+    list-style: none;
+    /* border: 2px solid; */
+    height: 65px ;
+    padding: 25px;
+    font-weight:600;
+}
+#sec3 summary:hover{
+    background-color: lightgrey;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#sec3 p{
+    line-height: 20px;
+    padding: 25px;
+}
+#sec3 p span{
+    color: #089238;
+    font-weight: 600;
+}
+#sec3 details span{
+    color: #089238;
+    font-weight: 600;
+}
+#sec3 font{
+    float: right;
+    font-size: 20px;
+}
+#sec3 summary{
+    
+}
+#sec4{
+    /* border: 2px solid red; */
+    height: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../spotify/assets/desktop-closing.jpeg')center 40% / 100%; no repeat;
+}
+#sec4 h1{
+    font-size: 60px;
+    color: white;
+}
+#sec4 button{
+    border: none;
+    /* border-radius: 2px solid red; */
+    border-radius: 25px;
+    height: 45px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: white;
+}
+footer{
+    /* border: 2px solid red; */
+    height: 542px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    gap: 50px;
+}
+footer svg{
+    height: 35px;
+    fill: white;
+}
+footer svg:hover{
+    cursor: pointer;
+}
+
+footer aside{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 70%;
+}
+footer aside ol{
+    list-style: none;
+    font-weight: 200;
+    line-height: 35px;
+}
+footer aside ol>li{
+    color: grey;
+}
+footer aside ol>li+li{
+    color: white;
+}
+footer aside ol>li+li:hover{
+    color:#1ed760;
+    cursor: pointer;
+}
+#d1{
+    /* border: 2px solid green; */
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+#d1 article{
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: #222326;
+    color: white;
+}
+#d1 article:hover{
+    cursor:pointer;
+    cursor: pointer;
+}
+footer>div{
+    /* border: 2px solid red; */
+    width: 50%;
+    color: gray;
+    margin-right: 20%;
+}
+footer>div>ol{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 12px;
+}
+footer>div>ol>li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
