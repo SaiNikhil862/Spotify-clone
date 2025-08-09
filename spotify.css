@@ -50,7 +50,7 @@ nav svg:hover{
 main {
     /* border: 2px solid red; */
     height: 530px;
-    background: url('../spotify/assets/desktop-hero.jpeg')center 40% / 100%;no repeat;
+    background: url('./assets/desktop-hero.jpeg') center 40% / 100% no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +184,7 @@ main button{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('../spotify/assets/desktop-closing.jpeg')center 40% / 100%; no repeat;
+    background: url('./assets/desktop-closing.jpeg') center 40% / 100% no-repeat;
 }
 #sec4 h1{
     font-size: 60px;
