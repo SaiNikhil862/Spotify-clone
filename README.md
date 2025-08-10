@@ -4,8 +4,7 @@ A responsive web application that replicates the Spotify interface using HTML an
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://sainikhil862.github.io/Spotify-clone/) *(Enable GitHub Pages to activate this link)*
-
+[View Live Demo](https://sainikhil862.github.io/Spotify-clone/)
 ## 📸 Screenshots
 
 ![Spotify Clone Preview](assets/desktop-hero.jpeg)
